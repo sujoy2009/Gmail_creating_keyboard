@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="3px"
+    android:verticalGap="3px"
+    android:keyHeight="60dp"
+    android:keyTextColor="@color/colorAccent"
+    android:keyBackground="@color/colorPrimaryDark"
+    >
+    <!--Layout of keys-->
+
+
+    <Row>
+
+        <Key android:codes="115" android:keyLabel="FN" android:keyWidth="20%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="100" android:keyLabel="LN" android:keyWidth="20%p" />
+        <Key android:codes="103" android:keyLabel="DATE" android:keyWidth="20%p" />
+        <Key android:codes="104" android:keyLabel="YEAR"  android:keyWidth="20%p" />
+
+        <Key  android:codes="44" android:keyLabel="Mail" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+
+
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="102" android:keyLabel="PASS" android:keyWidth="20%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="47" android:keyLabel="NEXT" android:keyWidth="20%p" />
+        <Key android:codes="32" android:keyLabel="Show" android:keyWidth="20%p" />
+        <Key android:codes="77" android:keyBackground="@color/colorPrimary" android:keyLabel="SEND" android:keyWidth="20%p" />
+        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
