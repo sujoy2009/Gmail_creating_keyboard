@@ -8,5 +8,6 @@ To use the Keyboard on your Android Device:
 Keycolors: (android:keyicon)
 Images: (android:keybackground=@drawable/)
 
-![image](https://user-images.githubusercontent.com/55844514/199511192-a04d4862-0d63-4c0f-8e08-ad6556b912c2.png)
+![image](https://user-images.githubusercontent.com/55844514/199511493-b7fddcc1-9bcf-45b4-a5f8-10ff22517069.png)
+
 
